@@ -1,4 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&family=Raleway:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&family=Pacifico&family=Raleway:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap');
+
+
+
 body{
+
   background-color: #101010;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
@@ -11,6 +21,7 @@ ul {
     align-items: center;
     padding: 31px;
     align-items:flex-end;
+    font-family: 'Oswald', sans-serif,light 300;
     
    }
 
@@ -34,12 +45,16 @@ text-align: center;
 }
 
 h3{
+  
+  font-family: 'Pacifico', cursive;
+
 text-align: center;
 font-size: 50px;
 }
 
 h4 {
   padding: 0.5%;
+  font-family: 'Oswald', sans-serif,light 300;
 }
 
 h2 {
