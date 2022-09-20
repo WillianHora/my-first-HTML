@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&family=Raleway:wght@100&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&family=Pacifico&family=Raleway:wght@100&display=swap');
@@ -7,57 +6,108 @@
 
 
 
-body{
-
-  background-color: #101010;
+body {
+  background-image: linear-gradient(55deg, #181818, #000000);
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-ul { 
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    align-items: center;
-    padding: 31px;
-    align-items:flex-end;
-    font-family: 'Oswald', sans-serif,light 300;
-    
-   }
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  padding: 31px;
+  align-items: flex-end;
+  font-family: 'Oswald', sans-serif, light 300;
+
+}
 
 
-   a {
+a {
   color: white;
   text-decoration: none;
-   }
+}
 
-   img{ 
-    width: 150px;
-    height: 150px;
-    border-radius: 60%;
-    border: 5px solid rgb(255, 255, 255);
-   }
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 60%;
+  border: 5px solid rgb(255, 255, 255);
+}
 
 
 
 .center {
-text-align: center;
+  text-align: center;
 }
 
-h3{
-  
-  font-family: 'Pacifico', cursive;
+h3 {
 
-text-align: center;
-font-size: 50px;
+  font-family: 'Pacifico', cursive;
+  padding: 0.01%;
+  text-align: center;
+  font-size: 50px;
 }
 
 h4 {
-  padding: 0.5%;
-  font-family: 'Oswald', sans-serif,light 300;
+  padding: 0.01%;
+  font-family: 'Oswald', sans-serif, light 300;
+  text-align: center;
 }
 
 h2 {
 
-text-align: left ;
+  text-align: center;
+  line-height: 3px;
+  letter-spacing: 12px;
 }
+
+
+#insta {
+  font-family: Helvetica;
+  text-align: center;
+
+
+}
+
+#zap {
+  font-family: Helvetica;
+  text-align: center;
+ 
+  
+ 
+
+
+}
+
+#git {
+  font-family: Helvetica;
+  text-align: center;
+
+}
+
+
+
+
+
+#git:hover{
+
+ background-color: crimson  ;}
+
+.facebook:visited{
+
+
+  
+}
+
+/*.box-model {    
+
+   width: 200px;
+   height: 100px;
+   color: rgb(255, 255, 255);
+   background-color: aqua;
+   border: 1px solid rgb(255, 255, 255);
+   text-align: center;
+   padding: 2%;
+   }*/
